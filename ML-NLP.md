@@ -21,3 +21,55 @@
 
 free-form 텍스트를 생성할 수 있는 작업인만큼 높은 확장성을 가지는 다양한 자연어처리 Tasks들이 포함되어 있음
 
+- Machine Translation Task
+
+    소스 언어의 텍스트를 의미를 유지한 채 타겟 언어의 텍스트로 번역
+
+- Text Summarization Task
+
+    텍스트 요약 작업 : 문서의 의미를 유지한 채 더 짧은 버젼의 텍스트로 요약
+    
+    1. 추출 요약 (Extractive summarization)
+    2. 추상 요약 (Abstractive summarization)
+
+- Text Generation Task
+
+    Machine Translation, Text Summarization 모두 이 작업에 포함 가능
+    
+    포괄적인 관점에서, **사람이 작성한 것 같은** 텍스트를 생성하는 작업
+
+- Knowledge bases, entities and relations
+
+    지식 기반 혹은 의미론적인 entity나 관계를 파악하는 NLP 분야
+
+    1. Named Entity Recognition (NER)
+
+        의미론적인 두 개의 entity 간 관계를 식별하는 작업
+
+        entity : 개체, 사람이 생각하는 개념이나 정보 단위와 같은 대상체, 구별이 됨    
+    2. Relation Extraction Task
+
+         텍스트에서 의미론적인 관계를 추출하는 작업
+
+        주어나 목적어 같은 것을 추출함
+
+- Topics & Keywords
+    
+    주제나 키워드를 파악함
+
+- Chatbot
+
+- Text Reasoning
+
+    주어진 지식이나 상식을 활용하여 일련의 추론 작업을 수행
+
+    간단한 수학문제들을 푼다고 생각 : 계산과정 -> 답, 이런 계산을 추론이라고 함
+
+- Fake News & Hate Speech Detection
+
+    허위, 오해의 소지가 있는 정보가 포함된 text를 감지하고 filtering
+
+- Text-to-Data & vice-versa
+
+    STT, TTS 작업이나, Text-to-Image 등
+
